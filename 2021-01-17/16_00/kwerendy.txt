@@ -1,4 +1,5 @@
 INSERT INTO ratownicy (`nrKaretki`,`ratownik1`,`ratownik2`,`ratownik3`) values ('20', 'Adam Nowak', 'Jan Kowalski','Anna Nowakowska')
 SELECT `id`,`adres`,`ratownicy_id` from zgloszenia where `dyspozytorzy_id` = "4";
 CREATE USER 'adam' identified by 'Adam6&'
-GRANT DELETE, CREATE, ALTER ON `ee09`.* TO 'adam'@'%';
+GRANT DELETE, CREATE, ALTER ON `ratownicy`.* TO 'adam'@'%';
+
