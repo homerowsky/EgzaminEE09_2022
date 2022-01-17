@@ -1,0 +1,35 @@
+* {
+	font-family: Georgia, serif;
+}
+.banner {
+	background-color: dodgerblue;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+.main {
+	background-color: lightblue;
+	padding: 100px;
+}
+.left {
+	float: left;
+	background-color: dodgerblue;
+	color: white;
+	width: 20%;
+	height: 220px;
+}
+.center,
+.right {
+	float: left;
+	background-color: dodgerblue;
+	color: white;
+	width: 40%;
+	height: 220px;
+	text-align: center;
+}
+a {
+	border: 1px dashed dimgray;
+	background-color: gold;
+	color: darkred;
+	padding: 10px;
+}
